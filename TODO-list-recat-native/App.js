@@ -36,7 +36,6 @@ export default class App extends React.Component {
       ],
     })
   }
-
   removeTodo(id) {
     this.setState({
       todos: this.state.todos.filter(todo => todo.id !== id)
